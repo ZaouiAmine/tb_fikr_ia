@@ -1,0 +1,15 @@
+id: QmaEGUwdfjgheJ4J5fE7TQFxyyGXN8VTdTz5r8PLXXjDGE
+description: FikrIA brief analysis via Ollama
+tags: []
+trigger:
+    type: http
+    method: POST
+    paths:
+        - /api/brief-analysis
+execution:
+    timeout: 2m
+    memory: 128MB
+    call: briefAnalysis
+source: .
+domains:
+    - fikr_ia_domain

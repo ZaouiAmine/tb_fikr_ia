@@ -1,0 +1,12 @@
+id: QmPbwn1UMWw6w339MnyznL3v72XfLJdmkPttf2tXNHjXPB
+description: FikrIA Vue creative workflow SPA
+tags: []
+domains:
+    - fikr_ia_domain
+source:
+    paths:
+        - /
+    branch: main
+    github:
+        id: "1205875053"
+        fullname: ZaouiAmine/tb_website_fikr_ia_web

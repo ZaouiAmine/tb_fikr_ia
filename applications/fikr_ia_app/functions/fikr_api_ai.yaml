@@ -1,0 +1,15 @@
+id: QmYKXU3VBi4LDEV74CXftu2T8JYmAE9Bk7e49M5CtvaY44
+description: FikrIA generic AI proxy Ollama
+tags: []
+trigger:
+    type: http
+    method: POST
+    paths:
+        - /api/ai
+execution:
+    timeout: 2m
+    memory: 128MB
+    call: apiAi
+source: .
+domains:
+    - fikr_ia_domain

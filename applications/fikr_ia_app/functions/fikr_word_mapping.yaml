@@ -1,0 +1,15 @@
+id: QmeckTaV3zX6ontkTvRQHpQG71B1xmwUkxVAbzL9rJ4Yct
+description: FikrIA word mapping JSON via Ollama
+tags: []
+trigger:
+    type: http
+    method: POST
+    paths:
+        - /api/word-mapping
+execution:
+    timeout: 2m
+    memory: 128MB
+    call: wordMapping
+source: .
+domains:
+    - fikr_ia_domain
